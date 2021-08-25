@@ -1,0 +1,253 @@
+@media (max-width: 359.98px) and (min-width: 0px) {
+    .img img {
+        width: 250px;
+    }
+
+    .logo img {
+        height: 30px;
+    }
+
+    body {
+        padding: 30px 10px;
+    }
+
+    .con {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .elements {
+        text-align: center;
+    }
+
+    .elements h1 {
+        margin-left: calc(50% - 135px);
+        width: 270px;
+    }
+
+    .elements p {
+        margin-left: calc(50% - 130px);
+        width: 260px;
+    }
+    
+    .social {
+        position: relative;
+        top: 30px;
+        left: calc(50% - 85px);
+    }
+
+    .all {
+        margin-top: 40px;
+    }
+
+    .elements {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .attribution {
+        position: relative;
+        bottom: -20px; 
+    }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) and (min-width: 360px) {
+    .img img {
+        width: 290px;
+    }
+
+    body {
+        padding: 30px 50px;
+    }
+
+    .con {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .elements {
+        text-align: center;
+    }
+
+    .elements h1 {
+        margin-left: calc(50% - 160px);
+        width: 320px;
+    }
+
+    .elements p {
+        margin-left: calc(50% - 150px);
+        width: 300px;
+    }
+    
+    .social {
+        position: relative;
+        top: 30px;
+        left: calc(50% - 85px);
+    }
+
+    .all {
+        margin-top: 40px;
+    }
+
+    .elements {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .attribution {
+        position: relative;
+        bottom: -20px; 
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) and (min-width: 576px) {
+    .img img {
+        width: 500px;
+    }
+
+    body {
+        padding: 30px 50px;
+    }
+
+    .con {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .elements {
+        text-align: center;
+    }
+
+    .elements h1 {
+        margin-left: calc(50% - 200px);
+    }
+
+    .elements p {
+        margin-left: calc(50% - 230px);
+    }
+    
+    .social {
+        position: relative;
+        top: 30px;
+        left: calc(50% - 85px);
+    }
+
+    .all {
+        margin-top: 40px;
+    }
+
+    .elements {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .attribution {
+        position: relative;
+        bottom: -20px; 
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) and (min-width: 768px) {
+    .img img {
+        width: 600px;
+    }
+
+    body {
+        padding: 30px 50px;
+    }
+
+    .con {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .elements {
+        text-align: center;
+    }
+
+    .elements h1 {
+        margin-left: calc(50% - 200px);
+    }
+
+    .elements p {
+        margin-left: calc(50% - 230px);
+    }
+    
+    .social {
+        position: relative;
+        top: 30px;
+        left: calc(50% - 85px);
+    }
+
+    .all {
+        margin-top: 40px;
+    }
+
+    .elements {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .attribution {
+        position: relative;
+        bottom: -20px; 
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) and (min-width: 992px) {
+    .img img {
+        width: 600px;
+    }
+
+    body {
+        padding: 30px 75px;
+    }
+
+    .con {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .elements {
+        text-align: center;
+    }
+
+    .elements h1 {
+        margin-left: calc(50% - 200px);
+    }
+
+    .elements p {
+        margin-left: calc(50% - 230px);
+    }
+    
+    .social {
+        position: relative;
+        top: 30px;
+        left: calc(50% - 85px);
+    }
+
+    .all {
+        margin-top: 40px;
+    }
+
+    .elements {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .attribution {
+        position: relative;
+        bottom: -20px; 
+    }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) and (min-width: 1200px) {
+    .img img {
+        width: 650px;
+    }
+}

@@ -1,0 +1,118 @@
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --SoftMagenta: hsl(300, 69%, 71%);
+}
+
+.attribution { 
+    font-size: 15px; 
+    text-align: center; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    position: relative; 
+    bottom: -105px; 
+}
+.attribution a { color: var(--SoftMagenta); text-decoration: none;}
+
+
+body {
+    background-color: var(--Violet);
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 50px 75px;
+    overflow-x: hidden;
+}
+
+.con {
+    display: flex;
+    justify-content: center;
+}
+
+.con h1 {
+    font-family: Poppins;
+    line-height: 1.5;
+    width: 400px;
+}
+
+.con p {
+    font-family: 'Open Sans';
+    line-height: 1.5;
+    width: 460px;
+}
+
+.all {
+    margin-top: 100px;
+}
+
+.elements {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: var(--Violet);
+    background-color: white;
+    font-family: Poppins;
+    padding: 15px 55px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-size: 18px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.btn {
+    margin-top: 40px;
+}
+
+.btn a:hover {
+    background-color: var(--SoftMagenta);
+    color: white;
+}
+
+.social {
+    position: absolute;
+    right: 100px;
+}
+
+.icon {
+    display: inline-block;
+}
+
+.icon i {
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 10px 12px;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.icon i:hover {
+    border-color: var(--SoftMagenta);
+    color: var(--SoftMagenta);
+}
+
+.icon:not(:last-child) {
+    margin-right: 10px;
+}
+
+
